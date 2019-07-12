@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>Efetuar Cadastro | Metha Digital</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="">
+        <meta name="author" content="Agência metha digital | www.methadigial.com.br">
+        <meta name="robots" content="index, follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Base Href -->
+        <base href="https://methadigital.com.br/">
+        <!-- Favicon -->
+        <link type="image/x-icon" rel="shortcut icon" href="https://methadigital.com.br/assets/global/img/favicon.ico">
+        <link type="image/x-icon" rel="icon" href="https://methadigital.com.br/assets/global/img/favicon.ico">
+        <!-- Styles -->
+        <!-- ================================================== -->
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" media="all" />
+        <link rel="stylesheet" href="https://methadigital.com.br/app/views/frontend/templates/www/assets/www/css/themes/corp.css">
+        <!-- Bootstrap Select -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.7.3/css/bootstrap-select.min.css" />
+        <!-- Animate Css -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.1/animate.min.css" />
+        <!-- Jquery Plugins -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.0/css/animsition.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.2/toastr.min.css" />
+        <link rel="stylesheet" href="https://methadigital.com.br/assets/www/js/plugins/rs-plugin/css/settings.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/magnific-popup.min.css" />
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400italic,700,700italic|Raleway:300,400,500,600,700|Open+Sans+Condensed:700" rel="stylesheet" type="text/css" />
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+        <!-- Header Styles -->
+        <!-- extra-css -->
+        <style type="text/css">
+        </style>
+        <style>.owl-nav{position:relative}.owl-prev{float:left;padding:20px;background:grey;margin-top:-250px;color:white}.owl-next{float:right;padding:20px;background:grey;margin-top:-250px;color:white}</style>
+        <!-- jQuery CDN -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js">
+        </script>
+        </head>
+        <body class="body-www page--cadastro">
+            <!-- #wrapper -->
+            <div id="wrapper" class="clearfix">
+                <!-- header-block -->
+                <!-- #add-navbar -->
+                <nav id="add-navbar" style="background:#510175;border-bottom:1px solid #510175">
+                    <div class="container clearfix">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <ul class="center-block text-center">
+                                    <li>
+                                        <a href="https://methadigital.com.br/cadastro/">
+                                            <i class="fa fa-plus-square">
+
+                                            </i>
+                                            <span class="hidden-xs">Quero me cadastrar</span>
+                                            <span class="hidden visible-xs">Quero me cadastrar</span>
+                                            /a>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="" class="dropdown-toggle" data-toggle="dropdown">
+                                                <i class="fa fa-desktop">
+
+                                                </i>
+                                                <span class="hidden-xs">Acessar Escritorio Virtual</span>
+                                                span class="hidden visible-xs">Escritório Virtual</span>
+                                            </a>
+                                            <ul class="dropdown-menu dropdown-login">
+                                                <li>
+                                                    <div>
+                                                        <form method="post" action="https://methadigital.com.br/backoffice/login/auth/">
+                                                            <input type="hidden" name="ad944db4d483a32f8cc99347ed1224b1" value="b8f1711c6d1789f6b45772eee525d578a30d21925800c94965f6c466050b5fdc" />
+                                                            <h4 class="text-heading mb-10">Já tem seu login ? Acesse.</h4>
+                                                            <div class="form-group">
+                                                                <label>Login</label>
+                                                                <input type="text" name="login" placeholder="Login, Email" class="form-control">
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label>Senha</label>
+                                                                <div class="input-group">
+                                                                    <input type="password" name="password" class="form-control">
+                                                                    <span class="input-group-btn">
+                                                                        <button type="button" class="btn btn-login ajax-rest-post">Entrar</button>
+                                                                    </span>
+                                                                </div>
+                                                                </div>
+                                                                <span class="center-block mt-5 mb-10">
+                                                                    <a href="https://methadigital.com.br/backoffice/login/forgot/" class="text-drank" data-toggle="modal" data-target="#ajaxModal"> Esqueceu sua senha ? </a>
+                                                                </span>
+                                                            </form>
+                                                        </div>
+                                                    </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </nav>
+                                <!-- / #add-navbar end -->
+                                <!-- #header -->
+                                <header id="header" class="transparent-header light">
+                                    <!-- #header-wrap -->
+                                    <div id="header-wrap">
+                                        <!-- .container -->
+                                        <div class="container clearfix">
+                                            <!-- main-navbar-toggle -->
+                                            <div id="main-navbar-toggle">
+                                                <a data-toggle="collapse" data-target="#main-navbar" aria-expanded="false">
+                                                    <i class="fa fa-bars fa-2x">
+
+                                                    </i>
+                                                </a>
+                                            </div>
+                                            <!-- / main-navbar-toggle -->
+                                            <!-- #branding -->
+                                            <div id="branding">
+                                                <a href="https://methadigital.com.br/" class="brand-normal" data-light-logo="https://methadigital.com.br/app/storage/uploads/catalogo/midias/logo3.png">
+                                                    <img src="https://methadigital.com.br/app/storage/uploads/catalogo/midias/logo3.png">
+                                                </a>
+                                            </div>
+                                            <!-- / #branding -->
+                                            <!-- #main-navbar -->
+                                            <nav id="main-navbar" class="collapse navbar-collapse">
+                                                <ul class="nav navbar-nav">
+                                                    <li>
+                                                        <a href="https://methadigital.com.br/">Home</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://methadigital.com.br/ecommerce/">Loja Virtual</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="javascript:;">Páginas <i class="fa fa-caret-down">
+
+                                                        </i>
+                                                    </a>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="https://methadigital.com.br/conteudo/pagina/sobre-nos">SOBRE NÓS</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a target="_blank" href="https://methadigital.com.br/backoffice/login/">Login</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://methadigital.com.br/contato/">Contato</a>
+                                                </li>
+                                            </ul>
+                                        </nav>
+                                        <!-- / #main-navbar -->
+                                    </div>
+                                    <!-- / .container -->
+                                </div>
+                                <!-- / #header-wrap -->
+                            </header>
+                            <!-- / #header -->
+                            <!-- / header-block -->
+                            <!-- #content -->
+                            <section id="content">
+                                <!-- .content-wrap -->
+                                <div class="content-wrap p-0 m-0">
+                                    <div class="line m-0">&nbsp;</div>
+                                    <!-- container -->
+                                    <div class="container pb-20 clearfix">
+                                        <div class="heading-block center mb-40">
+                                            <h2 class="text-uppercase">VENHA! FAÇA SEU CADASTRO</h2>
+                                            <p class="lead">Faça parte de nossa rede e desfrute dos benefícios que oferecemos</p>
+                                        </div>
+                                        <!-- row -->
+                                        <div class="clearfix p40 mt-20">
+                                            <!-- heading -->
+                                            <div class="heading-block mb-20">
+                                                <h4 class="mb-0">
+                                                    <span class="text-theme">Digite o nome do seu Patrocinador</span>
+                                                </h4>
+                                            </div>
+                                            <!-- / heading -->
+                                            <!-- patrocinador-full -->
+                                            <div id="patrocinador-full" class="clearfix text-justify hidden">
+                                                <p class="h4 mt-0 mb-10">Você será patrocinado por:</p>
+                                                <h2 class="text-greensea m-0">
+
+                                                </h2>
+                                            </div>
+                                            <!-- / patrocinador-full -->
+                                            <!-- patrocinador-empty -->
+                                            <div id="patrocinador-empty" class="clearfix text-justify ">
+                                                <label>O que é um Patrocinador?</label>
+                                                <!-- text-justify -->
+                                                <p class="mt-10">O Patrocinador é o membro que lhe indicou a entrar na rede. Por isso a escolha correta do Patrocinador é importante pois é ela quem vai definir o desempenho de sua rede durante toda a sua trajetória.</p>
+                                                <!-- / text-justify -->
+                                                <!-- row -->
+                                                <div class="row mt10">
+                                                    <!-- col -->
+                                                    <div class="col-sm-4 col-xs-12 mb-5">
+                                                        <input class="form-control" type="text" id="patrocinador" placeholder="Informe o nome de usuário do patrocinador" />
+                                                    </div>
+                                                    <!-- / col -->
+                                                    <!-- col -->
+                                                    <div class="col-md-3 col-sm-4 col-xs-12">
+                                                        <button type="button" class="btn btn-block mb-5 pb-10 btn-success btn-square validar-patrocinador" data-loading-text="Validando..." data-url="https://methadigital.com.br/cadastro/patrocinador/">
+                                                            <i class="fa fa-check">
+
+                                                            </i> Validar Patrocinador </button>
+                                                        </div>
+                                                        <!-- / col -->
+                                                    </div>
+                                                    <!-- / row -->
+                                                </div>
+                                                <!-- / patrocinador-empty -->
+                                                <!-- form -->
+                                                <form method="post" action="https://methadigital.com.br/cadastrar/" id="register-wizard">
+                                                    <input type="hidden" id="indicador" name="indicador" value="" />
+                                                    <!-- heading -->
+                                                    <div class="heading-block mt-30 mb-20">
+                                                        <h4 class="mb-0">
+                                                            <span class="text-theme">Dados de Acesso</span>
+                                                        </h4>
+                                                    </div>
+                                                    <!-- / heading -->
+                                                    <!-- form-group -->
+                                                    <div class="form-group row">
+                                                        <!-- col -->
+                                                        <div class="col-sm-6" title=" O nome de usuário é seu identificador único da rede e servirá para efetuar login. Deve conter apenas letras e números sem caracteres especiais." data-toggle="tooltip">
+                                                            <label>Login</label>
+                                                            <input type="text" class="form-control" name="username" placeholder="ex: josedasilva">
+                                                        </div>
+                                                        <!-- / col -->
+                                                        <!-- col -->
+                                                        <div class="col-sm-6">
+                                                            <label>Login</label>
+                                                            <input type="email" class="form-control" name="email">
+                                                        </div>
+                                                        <!-- / col -->
+                                                    </div>
+                                                    <!-- / form-group -->
+                                                    <!-- form-group -->
+                                                    <div class="form-group row">
+                                                        <!-- col -->
+                                                        <div class="col-sm-6">
+                                                            <label>Senha</label>
+                                                            <input type="password" class="form-control" name="password">
+                                                        </div>
+                                                        <!-- / col -->
+                                                        <!-- col -->
+                                                        <div class="col-sm-6">
+                                                            <label>Confirmar Senha</label>
+                                                            <input type="password" class="form-control" name="password_confirm">
+                                                        </div>
+                                                        <!-- / col -->
+                                                    </div>
+                                                    <!-- / form-group -->
+                                                    <!-- form-group -->
+                                                    <div class="form-group row">
+                                                        <!-- col -->
+                                                        <div class="col-sm-6" title="O PIN é um código de segurança adicional que será solicitado dentro do seu escritório virtual toda vez que uma operação financeira for efetuada." data-toggle="tooltip">
+                                                            <label>PIN</label>
+                                                            <input type="password" class="form-control" name="pin">
+                                                        </div>
+                                                        <!-- / col -->
+                                                        <!-- col -->
+                                                        <div class="col-sm-6">
+                                                            <label>Confirmar PIN</label>
+                                                            <input type="password" class="form-control" name="pin_confirm">
+                                                        </div>
+                                                        <!-- / col -->
+                                                    </div>
+                                                    <!-- / form-group -->
+                                                    <!-- heading -->
+                                                    <div class="heading-block mt-40 mb-20">
+                                                        <h4 class="mb-0">
+                                                            <span class="text-theme">Dados do Perfil</span>
+                                                        </h4>
+                                                    </div>
+                                                    <!-- / heading -->
+                                                    <!-- form-group -->
+                                                    <div class="form-group row">
+                                                        <!-- col -->
+                                                        <div class="col-sm-12">
+                                                            <label>Nome</label>
+                                                            <input type="text" name="nome" class="form-control" value="">
+                                                        </div>
+                                                        <!-- / col -->
+                                                    </div>
+                                                    <!-- / form-group -->
+                                                    <!-- form-group -->
+                                                    <div class="form-group row">
+                                                        <!-- col -->
+                                                        <div class="col-sm-6">
+                                                            <label>Tipo Pessoa</label>
+                                                            <select name="tipo_pessoa" class="form-control">
+                                                                <option value="fisica">Física</option>
+                                                                <option v></option>value="juridica">Jurídica</option>
+                                                            </select>
+                                                        </div>
+                                                        <!-- / col -->
+                                                        <!-- col -->
+                                                        <div class="col-sm-6">
+                                                            <label>Data de Nascimento</label>
+                                                            <input type="text" name="data_nascimento" class="form-control date_br" />
+                                                        </div>
+                                                        <!-- / col -->
+                                                    </div>
+                                                    <!-- / form-group -->
+                                                    <!-- form-group -->
+                                                    <div class="form-group row">
+                                                        <div class="col-sm-6">
+                                                            <label>Telefone</label>
+                                                            <input type="text" name="telefone" class="form-control tel" />
+                                                        </div>
+                                                        <div class="col-sm-6">
+                                                            <label>Celular</label>
+                                                            <input type="text" name="celular" class="form-control tel" />
+                                                        </div>
+                                                    </div>
+                                                    <!-- / form-group -->
+                                                    <!-- form-group -->
+                                                    <div class="form-group row">
+                                                        <div class="col-sm-6">
+                                                            <label>Estado Civil</label>
+                                                            <select name="estado_civil" class="form-control">
+                                                                <option value="casado">Casado</option>
+                                                                <option value="solteiro">Solteiro</option>
+                                                                <option value="outros">Outros</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="col-sm-6">
+                                                            <label>Gênero</label>
+                                                            <select name="genero" class="form-control">
+                                                                <option value="m">Masculino</option>
+                                                                <option value="f">Feminino</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <!-- / form-group -->
+                                                    <div class="heading-block mt-30 mb-20">
+                                                        <h4 class="mb-0">
+                                                            <span class="text-theme">Termos de uso do serviço</span>
+                                                        </h4>
+                                                    </div>
+                                                    <!-- form-group -->
+                                                    <div class="form-group">
+                                                        <div class="checkbox">
+                                                            <label>
+                                                                <input type="checkbox" name="termos">Declaro que li e concordo com os termos do contrato. <small>
+                                                                    <a data-toggle="modal" data-target="#modal-termos">(Clique aqui pra ler os termos de uso)</a>
+                                                                </small>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                    <!-- / form-group -->
+                                                    <button type="button" class="btn btn-square myBtn btn-block btn-cadastro mt-20">
+                                                        <i class="fa fa-save">
+
+                                                        </i> Confirmar Cadastro </button>
+                                                    </form>
+                                                    <!-- / form -->
+                                                </div>
+                                                <!-- / row -->
+                                            </div>
+                                            <!-- / container -->
+                                            <!-- .modal -->
+                                            <div id="modal-termos" class="modal fade">
+                                                <div class="modal-dialog">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <button type="button" class="close" data-dismiss="modal">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                            <h4 class="modal-title">Termos de uso do serviço</h4>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <p>
+                                                                <strong>CONTRATO DE ADES&Atilde;O</strong>
+                                                            </p>
+                                                            <p>\r\n</p>
+                                                            <p>Condi&ccedil;&otilde;es Comerciais que se estabelecem entre Metha Digital, e a pessoa que expressamente aceita este documento, doravante denominado(a) DISTRIBUIDOR INDEPENDENTE/VENDEDOR DIRETO/REVENDEDOR OU CLIENTE Metha Digital quando da aprova&ccedil;&atilde;o final do seu cadastro:</p>
+                                                            <p>\r\n</p>
+                                                            <p>O DISTRIBUIDOR INDEPENDENTE OU CLIENTE Metha Digital &eacute;, ent&atilde;o, toda pessoa f&iacute;sica, capaz e aut&ocirc;noma que se cadastrar no sistema da empresa, ter seu cadastro validado segundo as exig&ecirc;ncias neste estabelecidas e respeitar todas as condi&ccedil;&otilde;es descritas no Plano de Neg&oacute;cios Metha Digital e o Manual de &Eacute;tica e Disciplina MY COMPANY, ambos dispon&iacute;veis para acesso no site oficial da empresa e parte integrante deste contrato. O DISTRIBUIDOR INDEPENDENTE Metha Digital declara atrav&eacute;s deste que acessou e leu cuidadosamente o Plano de Neg&oacute;cio Metha Digital e o Manual de &Eacute;tica e Disciplina Metha Digital tendo concordado com todos os termos ali descritos.</p>
+                                                            <p>\r\n</p>
+                                                            <p>1.1. Todos clientes e distribuidores independentes da&nbsp;Metha Digital est&atilde;o protegidos por lei pelo direito do consumidor com 7 dias de arrependimento de sua compra com direito se solicitar o reembolso pelo produto ou servi&ccedil;o adquirido</p>
+                                                            <p>\r\n</p>
+                                                            <p>1.2. O(a) Distribuidor(a) Independente Metha Digital &eacute; livre para revender os produtos Metha Digital que adquirir, assumindo os riscos de sua atividade aut&ocirc;noma e auferindo os lucros e suportando os preju&iacute;zos decorrentes de sua atividade comercial.</p>
+                                                            <p>\r\n</p>
+                                                            <p>1.3. Para o in&iacute;cio de sua atividade comercial e consequente ingresso no neg&oacute;cio, o(a) Distribuidor Independente Metha Digital, adquirir&aacute; o kit Concess&atilde;o Metha Digital que escolher, daqueles que fazem parte da gama de produtos Metha Digital e s&atilde;o disponibilizados pela empresa, no valor indicado por essa no momento do cadastro.</p>
+                                                            <p>\r\n</p>
+                                                            <p>1.4. A Metha Digital se reserva no direito de alterar ou criar novos tipos de Kit&rsquo;s Concess&atilde;o dependendo das necessidades do neg&oacute;cio.</p>
+                                                            <p>\r\n</p>
+                                                            <p>1.5. Ap&oacute;s o cadastro v&aacute;lido e a compra de um dos kit`s a pessoa passa a ser um Distribuidor Independente Metha Digital e passa a ter o direito de revender os produtos Metha Digital devendo pagar somente o valor de consumo m&iacute;nimo mensal doravante denominada ativa&ccedil;&atilde;o mensal para continuar apto a adquirir os produtos Metha Digital com pre&ccedil;os diferenciados e manter-se na condi&ccedil;&atilde;o de Distribuidor Independente Metha Digital.</p>
+                                                            <p>\r\n</p>
+                                                            <p>1.6. O Interessado que se cadastrou na empresa e passou a ter a condi&ccedil;&atilde;o de Distribuidor(a) Independente Metha Digital tem ci&ecirc;ncia que desempenha atividade totalmente aut&ocirc;noma e sem exclusividade, podendo, inclusive, e a qualquer momento, segundo sua livre conveni&ecirc;ncia vender, revender, distribuir ou negociar outros produtos de outras empresas de vendas diretas ou n&atilde;o que julgar de seu interesse.</p>
+                                                            <p>\r\n</p>
+                                                            <p>1.7. A condi&ccedil;&atilde;o de Distribuidor Independente que lhe garante compra diferenciada dos produtos MY COMPANY ser&aacute; renovada ap&oacute;s o per&iacute;odo de 12 (doze) meses com a compra do Kit Renova&ccedil;&atilde;o para o exerc&iacute;cio das atividades durante novo per&iacute;odo de 12 (doze) meses e assim sucessivamente, enquanto se perdurar a parceria entres as partes. Caso a Metha Digital delibere sobre a n&atilde;o obrigatoriedade da compra desse kit renova&ccedil;&atilde;o, essa delibera&ccedil;&atilde;o de &uacute;nica e exclusiva decis&atilde;o por parte da Metha Digital, ser&aacute; anunciada via site oficial, at&eacute; o dia 31 de dezembro do ano anterior a n&atilde;o obrigatoriedade.</p>
+                                                            <p>\r\n</p>
+                                                            <p>1.8. O Distribuidor Independente Metha Digital deve manter os bons pr&iacute;ncipios de &eacute;tica perante a empresa, a difama&ccedil;&atilde;o do nome da empresa, palavras de baixo escal&atilde;o, ofensas difamat&oacute;rias para com o nome da Metha Digital ser&atilde;o punidos com exclus&atilde;o de cadastro e bloqueio por 3 meses,bem como o zeramento do saldo sendo o valor do mesmo liberado ap&oacute;s os 3 meses de bloqueio, tempo esse que ap&oacute;s o afiliado possa retornar ao sistema mediante pedido ao suporte.</p>
+                                                            <p>\r\n</p>
+                                                            <p>1.9. O Plano de Neg&oacute;cios n&atilde;o tem o prop&oacute;sito de definir metas ou alvos a serem alcan&ccedil;ados pelos Distribuidores Independentes, posto que os mesmos s&atilde;o totalmente aut&ocirc;nomos para desenvolver seu trabalho segundo suas pr&oacute;prias necessidades e conveni&ecirc;ncias.</p>
+                                                            <p>\r\n</p>
+                                                            <p>1.10. A Metha Digital disponibiliza gratuitamente material visual virtual, contendo informa&ccedil;&otilde;es sobre os seus produtos, sobre as cren&ccedil;as e valores da empresa, sua vis&atilde;o social e ambiental, al&eacute;m de assuntos relacionados &agrave; venda direta e o Plano de Neg&oacute;cios para o(a) Distribuidor Independente Metha Digital.</p>
+                                                            <p>\r\n</p>
+                                                            <p>1.11. O(A)Distribuidor(a) Independente Metha Digital se compromete a estudar e respeitar todas as informa&ccedil;&otilde;es contidas nestes materiais, visando a n&atilde;o descaracteriza&ccedil;&atilde;o dos produtos Metha Digital e obten&ccedil;&atilde;o do amplo conhecimento da atividade promovida pela Metha Digital sob pena de cancelamento do cadastro.</p>
+                                                            <p>\r\n</p>
+                                                            <p>1.12. O(A) Distribuidor(a) Independente Metha Digital suportar&aacute; todo e qualquer risco inerente a sua atividade comercial, inclusive no que tange a desist&ecirc;ncia de compra dos seus clientes, conforme leis de Defesa do Consumidor em vigor.</p>
+                                                            <p>\r\n</p>
+                                                            <p>1.13. O Distribuidor Independente Metha Digital poder&aacute; convidar outras pessoas para se tornarem novos Distribuidores Independentes Metha Digital atrav&eacute;s do Plano de Neg&oacute;cios Metha Digital onde &eacute; utilizado o sistema de divulga&ccedil;&atilde;o e indica&ccedil;&otilde;es multin&iacute;vel de vendas a consumidores finais.</p>
+                                                            <p>\r\n</p>
+                                                            <p>1.14. Obriga-se o(a) Distribuidor(a) Independente Metha Digital a efetuar o pagamento &agrave; vista do valor dos produtos adquiridos da Metha Digital, bem como das despesas acess&oacute;rias do neg&oacute;cio em institui&ccedil;&atilde;o financeira autorizada pela Metha Digital, na forma e nas condi&ccedil;&otilde;es estabelecidas nas Notas Fiscais ou em qualquer outro documento emitido pela Metha Digital.</p>
+                                                            <p>\r\n</p>
+                                                            <p>1.15. A entrega da mercadoria adquirida ser&aacute; realizada no endere&ccedil;o indicado pelo(a) Distribuidor(a) Independente Metha Digital no momento do cadastro. Caso, no momento da entrega da mercadoria, nenhum morador esteja no local, esta poder&aacute; ser feita a um dos vizinhos pr&oacute;ximos e, no caso de condom&iacute;nio, ao encarregado da portaria do edif&iacute;cio. Ser&aacute; autorizado tamb&eacute;m, a retirada das mercadorias nos Centros de Distribui&ccedil;&otilde;es e ou I9home pr&oacute;ximos de sua localidade, ocasi&atilde;o em que o Distribuidor utilizar&aacute; de meios pr&oacute;prios para carregamento e encaminhamento ao seu destino.</p>
+                                                            <p>\r\n</p>
+                                                            <p>1.16. O (a) Distribuidor (a) Independente &eacute; respons&aacute;vel pelas despesas acrescidas de frete que tiverem sido ocasionadas por erros no registro do endere&ccedil;o para o recebimento das mercadorias no momento do cadastro.</p>
+                                                            <p>\r\n</p>
+                                                            <p>1.17. O(a) Distribuidor(a) Independente Metha Digital fica obrigado(a) a informar &agrave; Metha Digital toda e qualquer altera&ccedil;&atilde;o de seus dados cadastrais, em especial o endere&ccedil;o e telefone, sob pena de n&atilde;o poder alegar o n&atilde;o recebimento dos produtos adquiridos.</p>
+                                                            <p>\r\n</p>
+                                                            <p>1.18. Ap&oacute;s a valida&ccedil;&atilde;o do cadastro, o(a) Distribuidor(a) Independente Metha Digital receber&aacute; senha de acesso, que poder&aacute; ser alterada conforme sua conveni&ecirc;ncia, para usufruir dos recursos da Metha Digital dispon&iacute;veis na internet. A titularidade de login e senha de acesso do(a) Distribuidor(a) Independente Metha Digital &eacute; de uso pessoal do cadastrado, todavia poder&aacute;, mediante solicita&ccedil;&atilde;o formal de transfer&ecirc;ncia de titularidade, esta ser transferida para terceiro qualquer de sua conveni&ecirc;ncia, o que acarretar&aacute; no cancelamento de seu cadastro e passando este terceiro a ter acesso &agrave;s condi&ccedil;&otilde;es diferenciadas de compra dos produtos Metha Digital e ao Plano de Neg&oacute;cio Metha Digital. Quando ocorrer esta hip&oacute;tese de transfer&ecirc;ncia de titularidade, o cadastrado que solicitar, ter&aacute; seu CPF bloqueado por um per&iacute;odo de 6 (seis) meses para novo cadastro. &Eacute; importante frisar, que ap&oacute;s esses 6 (seis) meses, caso o cadastrado deseje se cadastrar novamente, este ser&aacute; na qualidade de iniciante.</p>
+                                                            <p>\r\n</p>
+                                                            <p>1.19. O(a) Distribuidor(a) Independente Metha Digital assume neste ato integral responsabilidade pela guarda e sigilo de seu login e senha, bem como pelo uso indevido por terceiros. O(a) Distribuidor(a) Independente Metha Digital se declara plenamente ciente de que ser&aacute; o(a) &uacute;nico(a) respons&aacute;vel pelas opera&ccedil;&otilde;es realizadas atrav&eacute;s de seu login, cujo acesso somente ser&aacute; permitido ap&oacute;s o fornecimento da senha de uso pessoal.</p>
+                                                            <p>\r\n</p>
+                                                            <p>1.20. Com o prop&oacute;sito de assegurar os direitos personal&iacute;ssimos do(a) pr&oacute;prio(a) Distribuidor(a) Independente, os saques a que estes tiverem direito, somente ser&atilde;o liberados ap&oacute;s o envio, via upload dentro do sistema online da empresa,dos seus documentos pessoais comprobat&oacute;rios de identifica&ccedil;&atilde;o na seguinte ordem: RG, CPF ou Carteira Nacional de Habilita&ccedil;&atilde;o, Comprovante de Endere&ccedil;o;</p>
+                                                            <p>\r\n</p>
+                                                            <p>1.21. O(a) Distribuidor(a) Independente Metha Digital dever&aacute; conferir os produtos recebidos no ato do seu recebimento, confirmando a regularidade da entrega realizada pela Metha Digital, incluindo a quantidade recebida e integridade dos produtos. Caso haja a constata&ccedil;&atilde;o de qualquer irregularidade, dever&aacute;, no prazo de 24 (vinte e quatro) horas do recebimento, abrir uma ocorr&ecirc;ncia no site da Metha Digital via sistema SAC, informando e documentando as irregularidades encontradas.</p>
+                                                            <p>\r\n</p>
+                                                            <p>1.22. Tamb&eacute;m a Metha Digital disponibilizar&aacute; para o Distribuidor Independente todos os meios id&ocirc;neos poss&iacute;veis para que possa fazer a comunica&ccedil;&atilde;o de arrependimento dentro do prazo legal, bem como todas as informa&ccedil;&otilde;es necess&aacute;rias ao reenvio dos produtos &agrave; empresa.</p>
+                                                            <p>\r\n</p>
+                                                            <p>1.23. O(a) Distribuidor(a) Independente Metha Digital n&atilde;o &eacute; empregado, nem funcion&aacute;rio, nem representante, nem agente ou procurador da Metha Digital, ficando-lhe, assim, terminantemente vedado assumir compromissos em nome da Metha Digital, bem como utilizar ou reproduzir, sob qualquer forma ou pretexto, as marcas e express&otilde;es de propaganda da Metha Digital em an&uacute;ncios e publica&ccedil;&otilde;es de todas as esp&eacute;cies, reconhecendo ser da Metha Digital o direito exclusivo de propriedade sob tais marcas e express&otilde;es de propaganda.</p>
+                                                            <p>\r\n</p>
+                                                            <p>1.24. O(A) Distribuidor(a) Independente Metha Digital somente poder&aacute; usar a marca Metha Digital se respeitadas as regras e diretrizes de aplica&ccedil;&atilde;o da marca estabelecidas pela Metha Digital constantes em seus ve&iacute;culos de comunica&ccedil;&atilde;o oficiais, sejam elas as m&iacute;dias sociais oficiais ou o site da Metha Digital e ainda nos materiais de divulga&ccedil;&atilde;o, informa&ccedil;&atilde;o e treinamentos oficiais, sob pena de cancelamento de seu cadastro.</p>
+                                                            <p>\r\n</p>
+                                                            <p>1.25. O Distribuidor Independente autoriza expressamente e sem qualquer tipo de &ocirc;nus para a Metha Digitala utiliza&ccedil;&atilde;o de seu nome, fotografia, imagem, hist&oacute;rico pessoal, e resultados na empresa para o prop&oacute;sito de promo&ccedil;&atilde;o e divulga&ccedil;&atilde;o de todo o neg&oacute;cio Metha Digital.</p>
+                                                            <p>\r\n</p>
+                                                            <p>2. A Metha Digital poder&aacute; rescindir imediatamente a rela&ccedil;&atilde;o comercial existente com o(a) Distribuidor(a) Independente Metha Digital, cessando o fornecimento dos produtos ao(&agrave;) referido(a),nas seguintes condi&ccedil;&otilde;es:</p><p>\r\n</p><p>2.1. Se as informa&ccedil;&otilde;es por ele(a) prestadas no momento do cadastro n&atilde;o forem verdadeiras;</p>
+                                                            <p>\r\n</p>
+                                                            <p>2.2. Se o Distribuidor(a) independenteMetha Digital incorrer no descumprimento de qualquer das cl&aacute;usulas acordadas neste contrato, ocasi&atilde;o esta em que o Distribuidor Independente n&atilde;o ter&aacute; os direitos garantidos neste acordo, bem como ao recebimento de b&ocirc;nus futuros;</p>
+                                                            <p>\r\n</p>
+                                                            <p>2.3. Se houver not&oacute;ria e comprovada viola&ccedil;&atilde;o &agrave;s disposi&ccedil;&otilde;es do Manual de &Eacute;tica e Disciplina Metha Digital, C&oacute;digo de &Eacute;tica da Abved, ou &agrave;s disposi&ccedil;&otilde;es do C&oacute;digo de Defesa do Consumidor, motivo pelo qual o Distribuidor Independente(a) n&atilde;o ter&aacute; os direitos garantidos neste acordo, bem como ao recebimento de b&ocirc;nus futuro;</p>
+                                                            <p>\r\n</p>
+                                                            <p>2.4. O(a) Distribuidor(a) Independente permanecer inativo(a) durante 3 (tr&ecirc;s) per&iacute;odos de ativa&ccedil;&atilde;o cont&iacute;nuos, ou seja, 3 (tr&ecirc;s) meses consecutivos;</p>
+                                                            <p>\r\n</p>
+                                                            <p>2.5 Se houver cancelamento m&uacute;tuo das partes signat&aacute;rias deste contrato;</p>
+                                                            <p>\r\n</p>
+                                                            <p>2.6. A qualquer momento, a pedido do Distribuidor Independente(a), com ou sem justificativa, apenas noticiando formalmente e por escrito sua vontade, aceitando-se o meio eletr&ocirc;nico via ticket no sistema SAC so site oficial Metha Digital;</p>
+                                                            <p>\r\n</p>
+                                                            <p>2.7. No caso de rescis&atilde;o do presente contrato por op&ccedil;&atilde;o do Distribuidor Independente entende-se por renunciado tacitamente e imediatamente tamb&eacute;m suas qualifica&ccedil;&otilde;es e bonifica&ccedil;&otilde;es a receber a partir da data e hora exata do referido pedido.</p>
+                                                            <p>\r\n</p>
+                                                            <p>2.8. Se for noticiado a empresa, comportamento dissonante do Distribuidor Independente(a) Metha Digital com as diretrizes da empresa, especialmente no que tange &agrave; defini&ccedil;&atilde;o de metas e alvos em treinamentos e palestras realizadas por ele, descaracterizando o car&aacute;ter aut&ocirc;nomo da atividade de vendedor direto.</p>
+                                                            <p>\r\n</p>
+                                                            <p>2.9. Se for noticiado a empresa, comportamento dissonante do Vendedor Direto cadastrado com as diretrizes da Metha Digital especialmente no que tange &agrave; promessas de ganhos e vantagens que n&atilde;o s&atilde;o divulgadas nem oferecidas pela empresa, dada a sua condi&ccedil;&atilde;o de apenas fornecedora de produtos de sua linha para a atividade aut&ocirc;noma de vendas diretas.</p>
+                                                            <p>\r\n</p>
+                                                            <p>2.10. Se houver viola&ccedil;&atilde;o &agrave;s disposi&ccedil;&otilde;es do C&oacute;digo de Conduta Diante dos Vendedores Diretos e entre Empresas, aprovadas pela ABEVD - Associa&ccedil;&atilde;o Brasileira de Empresas de Vendas Diretas, e &agrave;s disposi&ccedil;&otilde;es do Manual de &Eacute;tica e Disciplina e do Manual de Neg&oacute;cios da Metha Digital;</p>
+                                                            <p>\r\n</p>
+                                                            <p>2.11. Se o(a) Distribuidor Independente (a) permanecer inativo (a), ou seja, deixar de realizar compras em per&iacute;odo de 3 (tres) meses consecutivos.</p>
+                                                            <p>\r\n</p>
+                                                            <p>3. O(a) Distribuidor(a) Independente Metha Digital, pelo presente instrumento, nomeia e constitui sua bastante procuradora a Metha Digital Com&eacute;rcio e Servi&ccedil;os Ltda, estabelecida no munic&iacute;pio de Sorocaba - SP, na Avenida Ant&ocirc;nio Carlos Comitre, n&ordm; 525, Crystal Plaza, Sala 54, Campolim, CEP 18.047-620 inscrita no CNPJ/MF sob o n.&ordm; 20.706.374/0001-34, a qual confere amplos poderes, inclusive de substabelecimento, para o fim especial de assinar, em nome do(a) Distribuidor(a) Independente, acordos e regimes especiais de tributa&ccedil;&atilde;o que autorizem o recolhimento, mediante substitui&ccedil;&atilde;o, do Imposto sobre Opera&ccedil;&otilde;es Relativas &agrave; Circula&ccedil;&atilde;o de Mercadorias e sobre Presta&ccedil;&atilde;o de Servi&ccedil;os de Transporte Interestadual e Intermunicipal e de Comunica&ccedil;&atilde;o &ndash; ICMS devido em decorr&ecirc;ncia da atividade de revenda de mercadoria adquirida diretamente da Metha Digital, podendo a mesma na qualidade de bastante procuradora, recolher os correspondentes valores, inclusive taxas, quando exigidas pela Municipalidade, assim como representar o(a) Distribuidor(a) Independente junto &agrave;s reparti&ccedil;&otilde;es p&uacute;blicas competentes, sejam elas federais, estaduais ou municipais.</p>
+                                                            <p>\r\n</p>
+                                                            <p>4. Fica desde j&aacute; estabelecido entre as Partes que as condi&ccedil;&otilde;es comerciais descritas no presente contrato somente ser&atilde;o v&aacute;lidas ap&oacute;s a aprova&ccedil;&atilde;o do cadastro da pessoa que o envia, sendo certo que somente o preenchimento do cadastro n&atilde;o implica na obriga&ccedil;&atilde;o da Metha Digital disponibilizar a esta pessoa os produtos para revenda.</p>
+                                                            <p>\r\n</p>
+                                                            <p>5. O (A) Distribuidor Independente (a) declara que leu e compreendeu integralmente o conte&uacute;do do presente documento, tendo lhe sido oferecida a oportunidade de sanar d&uacute;vidas a respeito, sendo que o seu cadastramento como Distribuidor Independente/Vendedor/Revendedor Metha Digital &eacute; fruto de sua manifesta&ccedil;&atilde;o de vontade, de forma aut&ocirc;noma, sem qualquer v&iacute;cio, dolo, coa&ccedil;&atilde;o ou erro essencial.</p>
+                                                            <p>\r\n</p>
+                                                            <p>6. Fica consignado que cabe a Metha Digital criar uma Comiss&atilde;o de &Eacute;tica e Disciplina, para solu&ccedil;&atilde;o de lit&iacute;gios entre Distribuidores Independentes e ou Vendedores diretos, buscando sempre ouvir as partes envolvidas e ap&oacute;s uma apurada documenta&ccedil;&atilde;o dos fatos relatados, proferir decis&otilde;es que dever&atilde;o ser respeitadas e acatadas pelas partes.</p>
+                                                            <p>\r\n</p>
+                                                            <p>7. Fica eleito o foro de Sorocaba-SP, como competente para dirimir quaisquer d&uacute;vidas ou lit&iacute;gios oriundos do presente contrato, que n&atilde;o forem resolvidas administrativamente, com exclus&atilde;o de qualquer outro, por mais privilegiado que seja.</p>
+                                                            <p>\r\n</p>
+                                                            <p>&nbsp;</p>
+                                                            <p>\r\n</p>
+                                                            <p>&nbsp;</p>
+                                                            </div>
+                                                            </div>
+                                                            </div>
+                                                            </div>
+                                                            <!-- /.modal -->
+                                                            </div>
+                                                            <!-- / .content-wrap -->
+                                                            </section>
+                                                            <!-- / #content -->
+                                                            <!-- footer-block -->
+                                                            <!-- #footer -->
+                                                            <footer id="footer" style="background:#510175 !important">
+                                                            <!-- #footer-main -->
+                                                            <div class="footer-main">
+                                                                <!-- .container -->
+                                                                <div class="container">
+                                                                    <!-- .toggle-footer -->
+                                                                    <ul class="footer-links pull-left">
+                                                                        <li class="item">
+                                                                            <a href="https://methadigital.com.br/">&#9679; Home</a>
+                                                                            </li>
+                                                                            <li class="item">
+                                                                                <a href="https://methadigital.com.br/duvidas/">&#9679; Dúvidas</a>
+                                                                                </li>
+                                                                                <li class="item">
+                                                                                    <a href="https://methadigital.com.br/conteudo/pagina/sobre-nos">&#9679; SOBRE NÓS</a>
+                                                                                    </li>
+                                                                                    </ul>
+                                                                                    <!-- / .toggle-footer -->
+                                                                                    <!-- share box -->
+                                                                                    <div class="share pull-right">
+                                                                                        <a href="https://www.facebook.com/methadigital2019/?modal=admin_todo_tour" target="_blank" class="social-icon social-facebook" target="_blank">
+                                                                                        <div class="front">
+                                                                                            <i class="fa fa-facebook">
+
+                                                                                            </i>
+                                                                                            </div>
+                                                                                            <div class="back">
+                                                                                                <i class="fa fa-facebook">
+
+                                                                                                </i>
+                                                                                                </div>
+                                                                                                </a>
+                                                                                                </div>
+                                                                                                <!-- / share box -->
+                                                                                                </div>
+                                                                                                <!-- / .container -->
+                                                                                                <div class="line mt-10 mb-10">
+
+                                                                                                </div>
+                                                                                                <!-- .container -->
+                                                                                                <div class="container">
+                                                                                                    <!-- .copyright -->
+                                                                                                    <div class="copyright">
+                                                                                                        <div class="row">
+                                                                                                            <div class="col-sm-10 col-xs-12 info text-left">
+                                                                                                                <!--<div>
+                                                                                                                    <img src="https://methadigital.com.br/app/views/frontend/templates/www/assets/global/img/logo-border.png" class="hidden-xs" />
+                                                                                                                    </div>-->
+                                                                                                                    <p class="mb-0">&copy; 2019 - Metha Digital</p>
+                                                                                                                    <p>Todos os direitos reservados</p>
+                                                                                                                    </div>
+                                                                                                                    <div class="col-sm-2 col-xs-12 hidden-xs logo text-right">
+                                                                                                                        <a href="http://www.Aliadus.com.br" target="_blank">
+                                                                                                                        </a>
+                                                                                                                        </div>
+                                                                                                                        </div>
+                                                                                                                        </div>
+                                                                                                                        <!-- / .copyright --> 
+                                                                                                                        </div>
+                                                                                                                        <!-- / .container -->
+                                                                                                                        </div>
+                                                                                                                        <!-- / #footer-main -->
+                                                                                                                        </footer>
+                                                                                                                        <!-- / #footer -->
+                                                                                                                        <!-- / footer-block -->
+                                                                                                                        </div>
+                                                                                                                        <!-- / #wrapper -->
+                                                                                                                        <!-- lightbox-modal -->
+                                                                                                                        <!-- modal window -->
+                                                                                                                        <div class="modal primary fade" id="lightboxModal" data-expire="1">
+                                                                                                                            <!-- modal-dialog -->
+                                                                                                                            <div class="modal-dialog">
+                                                                                                                                <!-- modal-content -->
+                                                                                                                                <div class="modal-content clearfix">
+                                                                                                                                    <!-- modal-header -->
+                                                                                                                                    <div class="modal-header">
+                                                                                                                                        <button type="button" class="close" data-dismiss="modal">
+                                                                                                                                            <span aria-hidden="true">&times;</span>
+                                                                                                                                            <span class="sr-only">Fechar</span>
+                                                                                                                                            </button>
+                                                                                                                                            <h4 class="modal-title">&nbsp;</h4>
+                                                                                                                                            </div>
+                                                                                                                                            <!-- / modal-header -->
+                                                                                                                                            <!-- modal-body -->
+                                                                                                                                            <div class="modal-body clearfix">
+                                                                                                                                                <p>Seja um Micro-franqueado Metha Digital e descubra todos os beneficios que oferecemos para realizar todos os seus sonhos.</p>
+                                                                                                                                                </div>
+                                                                                                                                                <!-- / modal-body -->
+                                                                                                                                                </div>
+                                                                                                                                                <!-- / modal-content -->
+                                                                                                                                                </div>
+                                                                                                                                                <!-- / modal-dialog -->
+                                                                                                                                                </div>
+                                                                                                                                                <!-- / modal window --><!-- lightbox-modal --><!-- ajaxModal --><div class="modal primary fade" id="ajaxModal"><div class="modal-dialog modal-lg">
+                                                                                                                                                    <div class="modal-content"></div>
+                                                                                                                                                    </div>
+                                                                                                                                                    </div>
+                                                                                                                                                    <!-- / ajaxModal -->
+                                                                                                                                                    <!-- ajaxOverModal -->
+                                                                                                                                                    <div class="modal primary fade" id="ajaxOverModal">
+                                                                                                                                                        <div class="modal-dialog modal-lg">
+                                                                                                                                                            <div class="modal-content">
+
+                                                                                                                                                            </div>
+                                                                                                                                                            </div>
+                                                                                                                                                            </div>
+                                                                                                                                                            <!-- / ajaxOverModal -->
+                                                                                                                                                            <!-- Javascript -->
+                                                                                                                                                            <!-- ================================================== -->
+                                                                                                                                                            <!-- Moment CDN -->
+                                                                                                                                                            <link href='moment-with-locales.min.js'>
+                                                                                                                                                           <!-- jQuery UI CDN -->
+                                                                                                                                                            <link href='jquery-ui.min.js'>
+                                                                                                                                                            
+                                                                                                                                                            <!-- Jquery Plugins CDN -->
+                                                                                                                                                            <link href="jquery.maskMoney.min.js">
+                                                                                                                                                            <link href="jquery.maskedinput.min.js">
+                                                                                                                                                        
+                                                                                                                                                            <link href="select2.full.min.js">
+                                                                                                                                                          
+                                                                                                                                                            <link href="dropzone.min.js">
+                                                                                                                                                          
+                                                                                                                                                            <link href="tinymce.min.js">
+                                                                                                                                                          
+                                                                                                                                                            <link href="jquery.blockUI.min.js">
+                                                                                                                                                     
+                                                                                                                                                            <link href="purl.min.js">
+                                                                                                                                                         
+                                                                                                                                                            <link href="jquery.magnific-popup.min.js">
+                                                                                                                                                     
+                                                                                                                                                            <link href="toastr.min.js">
+                                                                                                                                                            
+                                                                                                                                                            <!-- Bootstrap -->
+                                                                                                                                                            <link href="bootstrap.min.js">
+                                                                                                                                                        
+                                                                                                                                                            <!-- Bootstrap Plugins CDN -->
+                                                                                                                                                            <link href="bootbox.min.js">
+                                                                                                                                                
+                                                                                                                                                            <link href="bootstrap-filestyle.min.js">
+                                                                                                                                                    
+                                                                                                                                                            <!-- AudioJS -->
+                                                                                                                                                            <link href="audio.min.js">
+                                                                                                                                                         
+                                                                                                                                                            <!-- Global Helpers -->
+                                                                                                                                                            <link href="helpers.js">
+                                                                                                                                                          
+                                                                                                                                                            <link href="rede.js">
+                                                                                                                                                        
+                                                                                                                                                            <!-- Global Application -->
+                                                                                                                                                            <link href="application.js">
+                                                                                                                                                      
+                                                                                                                                                            <link href="custom.js">
+                                                                                                                                                       
+                                                                                                                                                            <!-- jQuery Plugins -->
+                                                                                                                                                            <link href="superfish.min.js">
+                                                                                                                                                          
+                                                                                                                                                            <link href="owl.carousel.min.js">
+                                                                                                                                                  
+                                                                                                                                                            <link href="jquery.stellar.min.js">
+                                                                                                                                                    
+                                                                                                                                                            <link href="jquery.cookie.js">
+                                                                                                                                                         
+                                                                                                                                                            <link href="jRespond.min.js">
+                                                                                                                                                           
+                                                                                                                                                            <link href="jquery.inview.min.js">
+                                                                                                                                                           
+                                                                                                                                                            <link href="jquery.themepunch.tools.min.js">
+                                                                                                                                                       
+                                                                                                                                                            <link href="jquery.themepunch.revolution.min.js">
+                                                                                                                                                             <!-- Bootstrap Plugins CDN -->
+                                                                                                                                                            <link href="bootstrap.min.js">
+                                                                                                                                                            <link href='BR.min.js'>
+                                                                                                                                                            <!-- Corp -->
+                                                                                                                                                            <link href='corp.js'>
+                                                                                                                                                        <!-- Footer Scripts --> 
+                                                                                                                                                            <!-- extra-js -->
+                                                                                                                                                            <script type="text/javascript">
+                                                                                                                                                            </script>
+                                                                                                                                                            </body>
+                                                                                                                                                            </html>
+                                                                                                                                                          
+                                                                                                                                                            
+                                                                                                                                                        
+                                                                                                                                                           
+                                                                                                                                                            
